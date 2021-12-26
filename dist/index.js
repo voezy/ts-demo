@@ -1,2 +1,2 @@
-(()=>{var e,a=new function(e,a,i){this.firstName=e,this.middleInitial="M.",this.lastName=i,this.fullname="Jane M. User"}("Jane","M.","User");document.body.innerHTML="Hello, "+(e=a).firstName+" "+e.lastName})();
+(()=>{let e=new class{constructor(e,t,s){this.firstName=e,this.middleInitial=t,this.lastName=s,this.fullname=e+" "+t+" "+s}}("Jane","M.","User");var t;document.body.innerHTML="Hello, "+(t=e).firstName+" "+t.lastName})();
 //# sourceMappingURL=index.js.map
