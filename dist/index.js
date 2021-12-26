@@ -1,15 +1,2 @@
-var Student = (function () {
-    function Student(firstName, middleInitial, lastName) {
-        this.firstName = firstName;
-        this.middleInitial = middleInitial;
-        this.lastName = lastName;
-        this.fullname = firstName + " " + middleInitial + " " + lastName;
-    }
-    return Student;
-}());
-function greeter(person) {
-    return "Hello, " + person.firstName + " " + person.lastName;
-}
-var user = new Student("Jane", "M.", "User");
-document.body.innerHTML = greeter(user);
+(()=>{var e,a=new function(e,a,i){this.firstName=e,this.middleInitial="M.",this.lastName=i,this.fullname="Jane M. User"}("Jane","M.","User");document.body.innerHTML="Hello, "+(e=a).firstName+" "+e.lastName})();
 //# sourceMappingURL=index.js.map
