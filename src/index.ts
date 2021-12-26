@@ -11,7 +11,7 @@ interface Person {
   lastName: string;
 }
 
-function greeter(person: Person) {
+const greeter = (person: Person) => {
   return "Hello, " + person.firstName + " " + person.lastName;
 }
 
